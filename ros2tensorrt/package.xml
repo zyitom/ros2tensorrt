@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2tensorrt</name>
+  <version>0.0.1</version>
+  <description>A ROS 2 package for ProjectName</description>
+
+  <maintainer email="your-email@example.com">Your Name</maintainer>
+
+  <license>TODO: License</license>
+
+  <depend>opencv4</depend>
+  <depend>eigen3</depend>
+  <depend>ceres-solver</depend>
+  <depend>fmt</depend>
+  <depend>cuda</depend>
+  <depend>tensorrt</depend>
+  <depend>cv-bridge</depend>
+  <!-- ROS 2 Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <!-- Add other ROS 2 dependencies here -->
+
+  <export>
+    <!-- Other export tags go here -->
+  </export>
+</package>
+
